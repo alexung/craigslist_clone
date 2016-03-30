@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Category.create(title: 'Ruby');
+Article.create(category_id: 1, title: 'Ruby on Rails', description: Forgery(:lorem_ipsum).words(50), price: Forgery(:monetary).money, address: Forgery('address').street_address)
