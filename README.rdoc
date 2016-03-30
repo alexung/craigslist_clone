@@ -1,6 +1,6 @@
 == Craigslist Clone
 
 Todo:
-* Seed 10 categories and 50 articles
+* Seed 10 categories and 50 articles X
 * Make post/edit/delete functionality on articles
 * Use twitter API / or some api...
