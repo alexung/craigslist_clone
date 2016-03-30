@@ -1,6 +1,5 @@
 == Craigslist Clone
 
 Todo:
-* Seed 10 categories and 50 articles X
-* Make post/edit/delete functionality on articles [x post/ x edit/]
+* Add confirmation on delete and notification on new page that you've successfully deleted the post
 * Use twitter API / or some api...
