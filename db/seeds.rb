@@ -7,8 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 10.times do
-  Category.create(title: Forgery('lorem_ipsum').words(3));
+  Category.create(title: Forgery('name').industry;
 end
 50.times do
-  Article.create(category_id: rand(1..10), title: Forgery('lorem_ipsum').words(5), description: Forgery('lorem_ipsum').words(50), price: Forgery('monetary').money, address: Forgery('address').street_address)
+  Article.create(category_id: rand(1..10), title: Forgery('name').company_name, description: Forgery('lorem_ipsum').words(50), price: Forgery('monetary').money, address: Forgery('address').street_address)
 end
