@@ -3,3 +3,4 @@
 <p>$<%= @article.price %></p>
 <p><%= @article.address %></p>
 
+<p><%= link_to "Edit your article", edit_category_article_path(@article.category_id, @article) %></p>
