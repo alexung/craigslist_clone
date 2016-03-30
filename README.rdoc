@@ -2,5 +2,5 @@
 
 Todo:
 * Seed 10 categories and 50 articles X
-* Make post/edit/delete functionality on articles
+* Make post/edit/delete functionality on articles [x post/ x edit/]
 * Use twitter API / or some api...
