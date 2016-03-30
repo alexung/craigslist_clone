@@ -3,4 +3,7 @@ class ArticlesController < ApplicationController
     # puts params
     @article = Article.find(params[:id])
   end
+
+  def new
+  end
 end
