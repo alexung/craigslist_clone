@@ -1,6 +1,6 @@
 == Craigslist Clone
 
 Todo:
-* Add links to the articles on each category page
-* Format article page to display title, desc, price, address
+* Seed 10 categories and 50 articles
+* Make post/edit/delete functionality on articles
 * Use twitter API / or some api...

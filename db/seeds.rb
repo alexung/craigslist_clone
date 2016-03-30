@@ -6,5 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Category.create(title: 'Ruby');
-Article.create(category_id: 1, title: 'Ruby on Rails', description: Forgery('lorem_ipsum').words(50), price: Forgery('monetary').money, address: Forgery('address').street_address)
+10.times do
+  Category.create(title: Forgery('lorem_ipsum').words(3));
+end
+50.times do
+  Article.create(category_id: rand(1..10), title: Forgery('lorem_ipsum').words(5), description: Forgery('lorem_ipsum').words(50), price: Forgery('monetary').money, address: Forgery('address').street_address)
+end
