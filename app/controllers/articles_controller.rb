@@ -29,6 +29,16 @@ class ArticlesController < ApplicationController
     redirect_to category_article_path(@article.category_id,@article.id)
   end
 
+  #triggered on deletion
+  def destroy
+    @article = Article.find(params[:id])
+    @category_id = @article.category_id
+    @article.destroy
+
+    flash[:notice] = "Successfully deleted the page"
+    redirect_to category_path(@category_id)
+  end
+
   private
 
   # good practice bc you can reuse these same params between create and update.
