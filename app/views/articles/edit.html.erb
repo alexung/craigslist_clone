@@ -1,0 +1,25 @@
+<%= form_for :article, url: {action: "update"}, method: :patch do |f| %>
+  <div>
+    <%= f.label :title %>
+    <%= f.text_field :title, value: @article.title %>
+  </div>
+
+  <div>
+    <%= f.label :description %>
+    <%= f.text_area :description, value: @article.description %>
+  </div>
+
+  <div>
+    <%= f.label :address %>
+    <%= f.text_field :address, value: @article.address %>
+  </div>
+
+  <div>
+    <%= f.label :price %>
+    <%= f.number_field :price, step: 'any' %>
+  </div>
+
+  <div>
+    <%= f.submit 'Edit your post' %>
+  </div>
+<% end %>
