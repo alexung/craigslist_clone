@@ -5,3 +5,5 @@
   <li><%= link_to article.title, category_article_path(@category, article) %></li>
 <% end %>
 </ul>
+
+<p><%= link_to "Make a new post!", new_category_article_path(@category) %></p>
