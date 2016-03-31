@@ -1,5 +1,9 @@
 <h1>Category Name: <%= @category.title %></h1>
 
+<% if flash[:notice] %>
+  <h3><%= flash[:notice] %></h3>
+<% end %>
+
 <ul>
 <% @articles.each do |article| %>
   <li><%= link_to article.title, category_article_path(@category, article) %></li>
