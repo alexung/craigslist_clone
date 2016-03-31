@@ -1,5 +1,4 @@
 == Craigslist Clone
 
 Todo:
-* Add confirmation on delete and notification on new page that you've successfully deleted the post
 * Use twitter API / or some api...

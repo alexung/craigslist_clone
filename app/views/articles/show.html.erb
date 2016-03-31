@@ -4,4 +4,4 @@
 <p><%= @article.address %></p>
 
 <p><%= link_to "Edit your article", edit_category_article_path(@article.category_id, @article) %></p>
-<p><%= link_to "Delete your article", category_article_path(@article.category_id, @article), method: :delete %></p>
+<p><%= link_to "Delete your article", category_article_path(@article.category_id, @article), method: :delete, data: {confirm: "Are you sure?"} %></p>

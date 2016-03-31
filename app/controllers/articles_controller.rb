@@ -35,7 +35,7 @@ class ArticlesController < ApplicationController
     @category_id = @article.category_id
     @article.destroy
 
-    flash[:notice] = "Successfully deleted the page"
+    flash[:notice] = "Successfully deleted the page!"
     redirect_to category_path(@category_id)
   end
 
