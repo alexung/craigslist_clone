@@ -1,5 +1,8 @@
 class CategoriesController < ApplicationController
+  helper_method :get_twitter_api
+
   def index
+    get_twitter_api
     @categories = Category.all
   end
 
