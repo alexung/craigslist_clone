@@ -2,3 +2,6 @@
 
 Todo:
 * Use twitter API / or some api...
+* Read about conceptual architecture
+* Rspec TDD testing
+
