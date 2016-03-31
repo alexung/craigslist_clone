@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.3.0'
 
+#rspec
+gem 'rspec-rails'
 #for twitter
 gem 'twitter'
 #for .env
